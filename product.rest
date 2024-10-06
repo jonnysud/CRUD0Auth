@@ -11,7 +11,7 @@ Content-Type: application/json
 
 {
     "productName" : "Bandeja San Valentín",
-    "productCost" : 150
+    "productCost" : "150"
 }
 
 
