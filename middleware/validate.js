@@ -24,7 +24,7 @@ const saveClient = (req, res, next) => {
 const saveProduct = (req, res, next)=>{
     const validationRule = {
         productName : 'required|string',
-        productCost : 'required|number'
+        productCost : 'required'
     }
     validator(req.body, validationRule, {}, (err,status)=>{
         if(!status){

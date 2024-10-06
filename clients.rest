@@ -2,7 +2,7 @@
 GET http://localhost:8080/clients
 
 ###Get a client
-GET http://localhost:8080/clients/6701fa2d1f2b5a8236111964
+GET http://localhost:8080/clients/670219911a62f15f292fe826
 
 
 ###Creat a client
@@ -10,26 +10,26 @@ POST http://localhost:8080/clients HTTP/1.1
 Content-Type: application/json
 
 {
+    "firstName" : "Jorge",
+    "lastName" : "Lopez",
+    "email" : "pepe.lepew@gmail.com",
+    "favoriteColor" : "black",
+    "lastPurchase" : "05-10-2024"
+}
+
+
+###Update a client
+PUT http://localhost:8080/clients/670219911a62f15f292fe826
+Content-Type: application/json
+
+{
     "firstName" : "Pepe",
     "lastName" : "Lewpew",
-    "email" : "pepe.lepew@gmail.com",
+    "email" : "pepe-lepew@gmail.com",
     "favoriteColor" : "violet",
     "lastPurchase" : "02-11-2022"
 }
 
 
-###Update a client
-PUT http://localhost:8080/clients/6701fa6b1f2b5a8236111965
-Content-Type: application/json
-
-{
-    "firstName" : "Jonathan",
-    "lastName" : "Ponce",
-    "email" : "jonathan.ponce@gmail.com",
-    "favoriteColor" : "green",
-    "lastPurchase" : "20-11-2022"
-}
-
-
 ### Delete a client
-DELETE http://localhost:8080/clients/6701fa2d1f2b5a8236111964
+DELETE http://localhost:8080/clients/670208aa417fd941546268e9

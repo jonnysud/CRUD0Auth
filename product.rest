@@ -1,29 +1,29 @@
-### Get all clients
+### Get all products
 GET http://localhost:8080/products
 
-###Get a client
+###Get a product
 GET http://localhost:8080/products/6701fe7ae2bc7ad5ba9e6f22
 
 
-###Creat a client
+###Creat a product
 POST http://localhost:8080/products HTTP/1.1
 Content-Type: application/json
 
 {
-    "productName" : "Bandeja San Valentín",
-    "productCost" : "150"
+    "productName" : "Caja Christmas",
+    "productCost" : 50
 }
 
 
-###Update a client
-PUT http://localhost:8080/products/6701fe7ae2bc7ad5ba9e6f22
+###Update a product
+PUT http://localhost:8080/products/67021aa7988af6772a955307
 Content-Type: application/json
 
 {
-    "productName" : "Bandeja Halloween",
-    "productCost" : 140
+    "productName" : "Christmas Box",
+    "productCost" : 50
 }
 
 
-### Delete a client
-DELETE http://localhost:8080/products/6701ff2be2bc7ad5ba9e6f23
+### Delete a product
+DELETE http://localhost:8080/products/67021aa7988af6772a955307
