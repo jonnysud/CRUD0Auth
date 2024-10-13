@@ -2,7 +2,7 @@
 GET http://localhost:8080/products
 
 ###Get a product
-GET http://localhost:8080/products/6701fe7ae2bc7ad5ba9e6f22
+GET http://localhost:8080/products/6701fe5de2bc7ad5ba9e6f21
 
 
 ###Creat a product
@@ -10,8 +10,8 @@ POST http://localhost:8080/products HTTP/1.1
 Content-Type: application/json
 
 {
-    "productName" : "Caja Christmas",
-    "productCost" : 50
+    "productName" : "Bandeja maravilla",
+    "productCost" : 80
 }
 
 
@@ -26,4 +26,4 @@ Content-Type: application/json
 
 
 ### Delete a product
-DELETE http://localhost:8080/products/67021aa7988af6772a955307
+DELETE http://localhost:8080/products/6705498016938d1c4b49b018
